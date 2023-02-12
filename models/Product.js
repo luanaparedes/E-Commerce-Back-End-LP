@@ -25,13 +25,13 @@ Product.init(
       //validate decimal
     },
     stock: {
-      type: DataType.INTEGER,
+      type: DataTypes.INTEGER,
       allowNull: false,
       // set default
       //validate
     },
     category_id: {
-      type: DataType.INTEGER,
+      type: DataTypes.INTEGER,
       //reference 'category' for id
     },
   },
